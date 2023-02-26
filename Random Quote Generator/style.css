@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    min-width: 90vw;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to left bottom, lightgreen, orange);
+
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50px 0 50px 0;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    padding: 45px;
+    width: 70%;
+    margin: 30px;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+div .quote {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+div .author {
+    font-size: 25px;
+    margin: 20px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 20px 0;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255, 255, 255, .5);
+    color: black;
+    text-transform: uppercase;
+    width: 250px;
+
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+    transition: all 300ms ease-in-out;
+    color: crimson;
+}
